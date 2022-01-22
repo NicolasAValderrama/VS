@@ -1,0 +1,9 @@
+h1{
+    color: rgba(160, 160, 22, 0.829);
+    text-align: center;
+}
+#primerdiv{
+    background-color: rgb(33, 73, 184);
+    font-style: oblique;
+    border: 3px solid black;
+}
