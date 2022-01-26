@@ -9,25 +9,43 @@
 </head>
 
 <body>
-    <div id=primerdiv class="divclass">
+    <header id=header>
         <h1>Nicolás Valderrama</h1>
-    </div>
-    <hr id="linea">
-    <br>
-    <div id=segundodiv class="divclass">
-        <img src="https://resizer.glanacion.com/resizer/Wt7c9G_TCewfo1JU_YQh38ygBRY=/768x0/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/BPZX5263MZDBFNHZDVZ5BLP73Y.jpg" alt="">
-        <p>Juan Román Riquelme</p>
-    </div>
-
-    <div>
+        <img id="logo" src="img/pngegg.png" alt="logo" width="50px" height="50px">
+        <input type="search" name="Busqueda" id="buscar" placeholder="Buscar...">
+        <nav>
+            <ul>
+                <li><a href="#">Quienes somos</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Ayuda</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div id=primerdiv class="divclass">
+        <h3>esto es una página de prueba</h3>
+        <h4>esto es una lista ordenada</h4>
         <ol>
-            <ul><p>el mejor del mundo</p></ul>
-            <ul><p>rey de copas</p></ul>
-            <ul><p>nunca descendio</p></ul>
-            <ul><p>rey de copas</p></ul>
-            <ul><p>boca</p></ul>
-            <ul><p>juniors</p></ul>
+            <li>hola</li>
+            <li>mundo</li>
         </ol>
     </div>
+    <hr id="linea">
+
+    <div class="formclass">
+        <form>
+            <label for="Usuario">Usuario</label>
+            <input type="text" placeholder="Ingrese su usuario">
+
+            <label for="Contraseña">Contraseña</label>
+            <input type="password" placeholder="Ingrese su contraseña">
+
+            <input type="submit" value="Ingresar">
+            
+            
+            <a href="">Olvidaste tu contraseña?</a>
+        </form>
+    </div>
+    
 </body>
 </html>
