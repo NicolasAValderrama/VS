@@ -1,0 +1,14 @@
+body{
+    background: linear-gradient(90deg,lightgray,lightblue);
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer{
+    position:absolute;
+    bottom:0px;
+    right: 500px;
+    padding:10px;
+    border-radius: 5%;
+    box-shadow: 25px 10px 10px 10px rgb(44, 96, 114);
+    margin: auto;
+    margin-left: 100px;
+}
