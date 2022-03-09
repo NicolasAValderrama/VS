@@ -1,17 +1,33 @@
+body {
+    font-family: system-ui;
+    background: #0000;
+    color: black;
+    text-align: center;
+    background: linear-gradient(rgb(45, 45, 163),rgb(180, 180, 28));
+  }
+
 h1{
     color: rgba(160, 160, 22, 0.829);
     text-align: center;
 }
-#primerdiv{
-    background-color: rgb(33, 73, 184);
-    font-style: oblique;
-    border: 3px solid black;
+footer{
+    position: relative;
+    bottom: 0;
+    background-color:rgb(83, 135, 231);
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
 }
-#segundodiv{
-    border: 3px solid yellow;
-
+#image{
+    width: 700px;
+    padding: auto;
+    margin: 0;
+    border-radius: 20px;
 }
-#linea{
-    background-color: black;
-    
+#tribute-info{
+    background-color:rgb(83, 135, 231);
+    width: 90%;
+    height: auto;
+    padding: 30px;
+    border-radius: 20px;
 }
