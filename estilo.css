@@ -2,22 +2,30 @@ body {
     font-family: system-ui;
     background: #0000;
     color: black;
-    text-align: center;
     background: linear-gradient(rgb(45, 45, 163),rgb(180, 180, 28));
-  }
-
-h1{
-    color: rgba(160, 160, 22, 0.829);
+}
+header{
+    position: relative;
+    top: 0;
+    margin-bottom: 10px;
+    padding: 20px;
+    background-color: crimson;
+    width: 100%;
+}
+main{
+    background-color:rgb(83, 135, 231);
+    width: 80%;
+    padding: 10px 20px 0px 20px;
+    border-radius: 20px;  
+    position: relative;
+    left: 7.1%;
     text-align: center;
 }
-footer{
-    position: relative;
-    bottom: 0;
-    background-color:rgb(83, 135, 231);
-    width: 100%;
-    height: auto;
-    border-radius: 20px;
+h1{
+    color: rgba(13, 30, 126, 0.829);
+    text-align: center;
 }
+
 #image{
     width: 700px;
     padding: auto;
@@ -25,9 +33,17 @@ footer{
     border-radius: 20px;
 }
 #tribute-info{
-    background-color:rgb(83, 135, 231);
+    background-color:rgb(41, 73, 133);
     width: 90%;
-    height: auto;
-    padding: 30px;
+    padding: 10px 20px 10px 20px;
     border-radius: 20px;
+}
+footer{
+    position: relative;
+    bottom: 0;
+    background-color:rgb(41, 73, 133);
+    margin-top:50px;
+    width:100%;
+    height: 100px;
+    padding-bottom: 10px;
 }
