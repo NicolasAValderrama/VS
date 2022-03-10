@@ -6,47 +6,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
     <title>Página tributo</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
 
 <body>
     <header>
-            <nav>
-                <i class="fa fa-bars" aria-hidden="true"><b>Tribute</b></i>
-            </nav>
-        </header>
+        <nav class="navbar">
+            <div class="container-fluid">
+                <a href="/index.html"><img src="/img/boca-juniors-logo.png" alt="logo" id="logo"></a>
+                <a class="navbar-brand" href="/index.html"><b>Tributo</b></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>          
+    </header>
     <main id="main">
         <div id="tittle">
             <h1><b>Juan Roman Riquelme</b></h1>
         </div>
         <figure id="img-div">
-            <img id="image" src="img/r1.jpg" alt="Riquelme">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/r1.jpg" class="image" alt="Riquelme">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/r3.jpg" class="image" alt="Riquelme">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/r4.jpg" class="image" alt="Riquelme">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
             <div id="img-caption">
-                
+                <p>Algunas imagenes de Juan Roman Riquelme en partidos</p>
             </div>
-            <div id="tribute-info">
-                <h3>Biografia del "último 10"</h3>
+        </figure>
+        <div id="tribute-info">
+                <h3>Biografia de el "último 10"</h3>
                 <p>
                     Se formó en las divisiones juveniles de Argentinos Juniors, para más tarde debutar en Boca Juniors en 1996. En el club xeneize, pasó seis temporadas donde ganó seis títulos, tres locales (Apertura 1998, Apertura 2000, Clausura 1999) y tres internacionales (Copas Libertadores 2000, 2001 y Copa Intercontinental 2000).
                 </p>
-                
-            </div>
+            <div id="mas-info">
             <a id="tribute-link" target="_blank" href="https://olympics.com/es/atletas/juan-roman-riquelme">Mas información</a>
-        </figure>
+            </div>
+        </div>
+        
     </main>
     <footer>
             <ul>
-                <li><b>Autor</b>:Nicolás Valderrama</li>
+                <li><b>Autor</b>: Nicolás Valderrama</li>
                 <div id="contact">
                 <li><b>Contacto</b></li>
                 <i class="fa fa-instagram" aria-hidden="true"></i>
-                <a target="_blank" href="https://www.instagram.com/_nicovalderrama/">instagram</a>
+                <a target="_blank" href="https://www.instagram.com/_nicovalderrama/"> instagram</a>
                 <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                <a href="">Mail</a>
+                <a href=""> Mail</a>
                 </div>
                 <li>San fernando del valle de Catamarca - 8/3/2002</li>
             </ul>
-        </footer>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
